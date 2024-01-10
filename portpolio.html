@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Your Portfolio</title>
+    <style>
+         body { 
+             font-family: Arial, sans-serif; 
+             margin: 0; 
+             padding: 0; 
+             background-color: #eee4f7; 
+         } 
+
+         header { 
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #eb9ae7;
+            box-shadow: 0 0 10px rgba(204, 86, 86, 0.1);
+        }
+
+        img {
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .project {
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="vaish.jpeg" alt="Your Photo">
+        <h1>Vaishnavi Surjuse</h1>
+    </header>
+
+    <section>
+        <h2>Self Introduction</h2>
+        <p>Hello, I am Vaishnavi Surjuse. <br>I am from Khapa. I currently pursuing a B-tech from Jhulelal Institute of Technology</p>
+
+        <div class="project">
+            <h2>Project</h2>
+             <a href="C:\Users\Student\Desktop\html,css\table.html">table code</a>
+            <img src="ass.jpeg" alt="Project">
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
